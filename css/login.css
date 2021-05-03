@@ -1,0 +1,106 @@
+h2{
+  text-align:center;
+  font-style: italic;
+}
+/* Bordered form */
+.mid-form{
+  width: 100%;
+  margin: auto;
+}
+form {
+  background-color: #EFF0F5;
+  border: 3px solid #EFF0F5;
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+  width: 500px;
+  text-align: center;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email], input[type=number] {
+  background-color: #e9e4e1d8;
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #3360FF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.6;
+}
+
+
+/* Add padding to containers */
+.account {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+span.psw {
+  padding-top: 16px 16px;
+  float: center;
+  margin-bottom: 20px;
+
+}
+
+/*Employeer Signup form*/
+.main-div{
+  width: 100%;
+
+  
+}
+
+.image-div{
+  float: left;
+  width: 48%;
+  height: 100vh;
+}
+.image-div img{
+  margin-top: 25px;
+  margin-left: 50px;
+  width: 90%;
+  height: 65vh;
+}
+
+.form-div{
+  float: right;
+  width: 45%;
+  margin-left: 60px;
+  margin-top: 80px;
+
+
+
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 500px) {
+  span.psw {
+    display: block;
+    float: center;
+  }
+  
+}
